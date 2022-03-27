@@ -40,7 +40,7 @@ class MainKtTest {
         //arrange
         val lastTransfers = 7300000
         val transfer = 190000
-        val type = "Mastercard/Maestro"
+        val type = "Break commit"
         val expectedCommission = 0
         //act
         val actualCommission = calculateCommission(lastTransfersMonth = lastTransfers, transfer = transfer, type = type)
